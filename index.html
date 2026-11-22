@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1d1a2f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<title>Rede Raízes do Nordeste</title>
+<meta name="description" content="Cardápio por unidade, pedidos, fidelidade e pagamento simulado da Rede Raízes do Nordeste.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap"></noscript>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="renda" aria-hidden="true"></div>
+<header><div class="bar"><div class="logo">Raízes <b>do Nordeste</b></div><select id="ch" aria-label="Canal de atendimento"><option value="web">Web</option><option value="app">App</option><option value="totem">Totem</option></select><button class="btn sm ghost" id="acc"></button></div><nav class="tabs" id="nav" aria-label="Principal"></nav></header>
+<main id="app"></main>
+<div id="aux"></div>
+<dialog id="dlg"></dialog>
+<script src="app.js" defer></script>
+</body>
+</html>
